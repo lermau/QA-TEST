@@ -1,4 +1,4 @@
-# Prueba Técnica - Programador (Back-end)
+# Prueba Técnica - Tester
 La siguiente es una prueba para evaluar a los postulantes para un perfil de **Tester**.
 
 ## INTRODUCCIÓN
