@@ -70,10 +70,7 @@ Escribe un escenario de prueba Gherkin para verificar la capacidad de la aplicac
 **EJERCICIO 1 Escribe un programa en Java que verifique si una palabra es un palíndromo. Un palíndromo es una palabra que se lee igual de izquierda a derecha que de derecha a izquierda.**
 
 
-**EJERCICIO 2 Crea una clase en Java que represente una cuenta bancaria. La clase debe tener métodos para depositar, retirar y obtener el saldo actual. También, implementa un programa que utilice esta clase para realizar algunas operaciones bancarias básicas.**
-
-
-**EJERCICIO 3 Genera los referentes identificadores para un mismo elemento en selenium y appium**
+**EJERCICIO 2 Genera los referentes identificadores (xpath) para un mismo elemento en selenium y appium**
 
 ---
 ### PARTE 3 Prreguntas abiertas #
