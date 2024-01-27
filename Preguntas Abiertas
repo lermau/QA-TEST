@@ -1,0 +1,49 @@
+
+
+
+**Pregunta 1: ¡Cuál es la diferencia entre pruebas de carga y estrés?**
+Las pruebas de carga:Evalúan el rendimiento del sistema al someterlo a cargas de trabajo normales o esperadas para determinar su capacidad y comportamiento bajo condiciones normales de operación.
+LasPruebas de estrés:Evalúan el rendimiento del sistema al someterlo a condiciones extremas o superiores a las capacidades previstas.
+
+
+**Pregunta 2: ¿Qué probarías si tuvieras que probar una nueva versión que solventa un bug crítico en producción?**
+Primero que efectivamente se resolvio el Bug replicando las condiciones que lo desencadenan y luego generando posibles escenarios de falla. 
+Luego haría pruebas de regresión para asegurar que la solución del bug crítico no ha introducido nuevos problemas.
+Realizaría despues pruebas de integración
+Por último si son necesarias pruebas de rendimiento para evaluar el impacto en el rendimiento del sistema.
+
+
+**Pregunta 3: ¿Cómo reportarías los bugs encontrados hacía los desarrolladores?**
+Proporcionar información detallada sobre el bug, incluyendo pasos para reproducirlo
+Incluir información del entorno y configuración en el que se encontró el bug, sistema operativo, navegador, versión del softeware, ambiente, datos de prueba.
+Tomar evidencia ya sea con capturas de pantall y o videos del proceso en como se genero.
+Asignar una prioridad y severidad al bug para ayudar en la planificación de su resolución.
+
+**Pregunta 4: ¿Cómo le darías seguimiento a bugs reportados a Desarrollo?**
+Manteniendo una comunicación constante con el equipo de desarrollo, utlizando un archivo compartido de excel o con alguna herramienta para el seguimiento de incidencias.
+Efectuar pruebas despues de que se soluciono el bug por parte del equipo de desarrollo y generar una confirmación de solución ya sea por correo o en la herramienta de gestión.
+
+**Pregunta 5: ¿Cuál serían los niveles de severidad que manejarías para reportar bugs y con base en qué?**
+Crítico: Problemas que afectan gravemente la funcionalidad principal crashea el aplicativo o simplemente no funciona.
+Mayor: Problemas importantes pero no críticos para el flujo principal.
+Menor: Problemas menores que no afectan significativamente la funcionalidad principal.
+Esteticos: Ortografía, presentación de los elementos del sistema inadecuado, tamaños de elementos desproporcionados, etc.
+
+
+**Pregunta 6: ¿Puedes explicar qué es la metodología de pruebas Ágil y cuáles son sus principios fundamentales?**
+Es parte integral de uan metodología de desarrollo ágil consta de un enfoque iterativo e incremental, colaboración estrecha entre desarrolladores y probadores. tetroalimentación y entregas frecuentes y funcionales.
+
+**Pregunta 7: ¿Cuál es la diferencia entre pruebas funcionales y pruebas no funcionales? Proporciona ejemplos de cada una.**
+
+**Pregunta 8: ¿Qué es la automatización de pruebas y cuáles serían algunos casos donde sería más beneficioso automatizar pruebas en lugar de realizar pruebas manuales?
+Es el uso de herramientas y scripts para ejecutar pruebas automáticamente los casos mas beneficiosos es para la ejecución de tareas repetitivas así como pruebas de regresión
+
+
+**Pregunta 9: ¿Puedes mencionar algunas herramientas populares de automatización de pruebas y describir en qué escenarios podrían ser más útiles?**
+Yo uso Cypress para entornos web la ventaja de este es que tiene muchas cosas ya integradas como apturas de pantalla y reportes, en el caso de aplicaciones móviles lo que yo utilizo es APPIUM con Python el cual esta basado en Selenium y existen otras como postman y karate para  ejecutar pruebas de API.
+A mi en lo particular me gustaria aprender Jenkinks para el despliegue continuo.
+
+**Pregunta 10: ¿Qué casos no automatizarías?**
+Pruebas de humo y exploratorias, obiamente porque no se puede los captchas, pruebas que sean dificiles de automatizar o que la implementación lleve más tiempo que la ejeccusión al ser algo que no es dificil ni recurrente y pruebas de experiencia de usuario.
+
+ 
