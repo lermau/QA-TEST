@@ -1,0 +1,12 @@
+
+Genera los referentes identificadores (xpath) para un mismo elemento en selenium y appium
+
+Se que no es parte de la pregunta pero no es recomendable el uso de xpath para seleccionar elementos, es preferible usar 
+Ids o clases pero bueno 
+
+Para obtener un botón en selenium 
+boton = driver.find_element(By.XPATH, "//button[@id='botonSubmit']")
+
+Tengo mas experiencia con appium y python pero se que es muy similar a Selenium
+
+boton = driver.find_element(AppiumBy.XPATH, "//android.widget.Button[@text="Submit"])
